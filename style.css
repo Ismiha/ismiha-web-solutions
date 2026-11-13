@@ -387,6 +387,8 @@ footer {
 footer p {
 
     font-size: 14px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 
 }
 
