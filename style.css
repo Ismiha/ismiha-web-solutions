@@ -36,6 +36,8 @@ body {
 header {
     background-color: #172554;
     color: white;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
 }
 
 .navbar {
