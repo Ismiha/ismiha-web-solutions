@@ -1,0 +1,488 @@
+
+/* =========================================
+   GENERAL WEBSITE SETTINGS
+========================================= */
+
+/* Remove default browser spacing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Smooth navigation scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Main website settings */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+/* =========================================
+   SECTION 1: NAVIGATION
+========================================= */
+
+header {
+    background-color: #172554;
+    color: white;
+}
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 8%;
+
+}
+
+.logo {
+
+    font-size: 22px;
+
+    color: white;
+
+}
+
+.nav-links {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+
+}
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition: color 0.3s ease;
+
+}
+
+.nav-links a:hover {
+
+    color: #93c5fd;
+
+}
+
+
+/* =========================================
+   SECTION 2: HERO
+========================================= */
+
+.hero {
+
+    min-height: 450px;
+
+    background-color: #eaf0ff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+.hero-content {
+
+    max-width: 750px;
+
+}
+
+.hero h1 {
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    color: #172554;
+
+    margin-bottom: 20px;
+
+}
+
+.hero p {
+
+    font-size: 18px;
+
+    color: #444444;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* Main website button */
+
+.btn {
+
+    display: inline-block;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    padding: 12px 28px;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+
+    background-color: #1d4ed8;
+
+}
+
+
+/* =========================================
+   SECTION 3: ABOUT US
+========================================= */
+
+.about {
+
+    padding: 70px 10%;
+
+    text-align: center;
+
+    background-color: white;
+
+}
+
+.about h2 {
+
+    color: #172554;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+.about p {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+}
+
+
+/* =========================================
+   SECTION 4: OUR SERVICES
+========================================= */
+
+.services {
+
+    padding: 70px 8%;
+
+    background-color: #f5f7fb;
+
+    text-align: center;
+
+}
+
+.services h2 {
+
+    color: #172554;
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+
+}
+
+.section-description {
+
+    margin-bottom: 35px;
+
+    color: #555555;
+
+}
+
+
+/* Service card container */
+
+.service-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+}
+
+
+/* Individual service card */
+
+.service-card {
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    flex: 1;
+
+    min-width: 220px;
+
+    max-width: 350px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.3s ease;
+
+}
+
+
+/* Card hover effect */
+
+.service-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.service-card h3 {
+
+    color: #2563eb;
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+
+}
+
+.service-card p {
+
+    color: #555555;
+
+    font-size: 15px;
+
+}
+
+
+/* =========================================
+   SECTION 5: WHY CHOOSE US
+========================================= */
+
+.why-us {
+
+    padding: 70px 10%;
+
+    text-align: center;
+
+    background-color: white;
+
+}
+
+.why-us h2 {
+
+    color: #172554;
+
+    font-size: 30px;
+
+    margin-bottom: 25px;
+
+}
+
+.why-container p {
+
+    margin: 12px 0;
+
+    font-size: 16px;
+
+}
+
+
+/* =========================================
+   SECTION 6: CONTACT
+========================================= */
+
+.contact {
+
+    background-color: #eaf0ff;
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+}
+
+.contact h2 {
+
+    color: #172554;
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
+
+}
+
+.contact p {
+
+    margin-bottom: 25px;
+
+    font-size: 16px;
+
+}
+
+
+/* =========================================
+   SECTION 7: FOOTER
+========================================= */
+
+footer {
+
+    background-color: #172554;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+}
+
+footer p {
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+
+    /* Navigation */
+
+    .navbar {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+    .nav-links {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+
+    }
+
+
+    /* Hero */
+
+    .hero {
+
+        min-height: 350px;
+
+        padding: 50px 20px;
+
+    }
+
+    .hero h1 {
+
+        font-size: 30px;
+
+    }
+
+    .hero p {
+
+        font-size: 16px;
+
+    }
+
+
+    /* About */
+
+    .about {
+
+        padding: 50px 7%;
+
+    }
+
+
+    /* Services */
+
+    .service-container {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .service-card {
+
+        width: 100%;
+
+        max-width: 450px;
+
+    }
+
+
+    /* Why Choose Us */
+
+    .why-us {
+
+        padding: 50px 7%;
+
+    }
+
+
+    /* Contact */
+
+    .contact {
+
+        padding: 50px 20px;
+
+    }
+
+}
